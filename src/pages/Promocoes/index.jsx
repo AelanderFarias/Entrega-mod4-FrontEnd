@@ -3,6 +3,7 @@ import ImgCampinas from "../../assets/img/campinas.jpg";
 import ImgSRS from "../../assets/img/SantaRitaSapucai.jpg";
 import ImgUFRJ from "../../assets/img/ufrj.jpg";
 import ImgTecPUC from "../../assets/img/tecnopuc.jpg";
+import { Link } from "react-router-dom";
 
 
 
@@ -52,8 +53,8 @@ export default function Promocoes() {
                                     </span>
 
                                 </div>
-                                <a className="btn btn-primary" href="contato.html">
-                                    Quero Viajar</a>
+                                <Link className="btn btn-primary" to="/contato">
+                                    Quero Viajar</Link>
                             </div>
                         </div>
                     </div>
@@ -85,9 +86,9 @@ export default function Promocoes() {
                                     </span>
 
                                 </div>
-                                <a className="btn btn-primary" href="contato.html">
+                                <Link className="btn btn-primary" to="/contato">
                                     Quero Viajar
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -120,9 +121,9 @@ export default function Promocoes() {
                                     </span>
 
                                 </div>
-                                <a className="btn btn-primary" href="contato.html">
+                                <Link className="btn btn-primary" to="/contato">
                                     Quero Viajar
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -153,9 +154,9 @@ export default function Promocoes() {
                                     </span>
 
                                 </div>
-                                <a className="btn btn-primary" href="contato.html">
+                                <Link className="btn btn-primary" to="/contato">
                                     Quero Viajar
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

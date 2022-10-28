@@ -3,7 +3,7 @@ import ImgMIT from "../../assets/img/mit.jpg";
 import ImgSPV from "../../assets/img/sanPedroValley.jpeg";
 import ImgPD from "../../assets/img/portoDigital.jpg";
 import "./style.css";
-import { lazy } from "react";
+import { Link } from "react-router-dom";
 
 
 export default function Home() {
@@ -32,10 +32,10 @@ export default function Home() {
                             <p>Paraíso dos nerds, o Massachusetts Institute of Technology (MIT) se destaca por aliar um ensino de
                                 tecnologia de ponta a noções de administração. União ideal para engenheiros, cientistas da computação e
                                 outros profissionais da tecnologia que pretendem investir em seu próprio negócio.</p>
-                            <a href="contato.html" className="linkPrice">
+                            <Link to="/contato" className="linkPrice">
                                 <h5 className="price">R$ 7.000 em até 10x</h5>
                                 <h6>7 dias com hospedagem</h6>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <hr />
@@ -54,10 +54,10 @@ export default function Home() {
                                 <br />
                                 Hoje, já conta com mais de 200 empresas de tecnologia e inovação, com alto potencial de crescimento.
                             </p>
-                            <a href="contato.html" className="linkPrice">
+                            <Link to="/contato" className="linkPrice">
                                 <h5 className="price">R$ 3.000 em até 10x</h5>
                                 <h6>7 dias com hospedagem</h6>
-                            </a>
+                            </Link>
                         </div>
                         <div className="col-lg-6">
                             <img src={ImgSPV} alt="San Pedro Valley" className="sanPedroValley" />
@@ -84,10 +84,10 @@ export default function Home() {
                                 Em 2017, foi eleito o melhor parque tecnológico/habit de inovação do Brasil pela Associação Nacional de
                                 Entidades Promotoras de Empreendimentos Inovadores (Anprotec).
                             </p>
-                            <a href="contato.html" className="linkPrice">
+                            <Link to="/contato" className="linkPrice">
                                 <h5 className="price">R$ 2.500 em até 10x</h5>
                                 <h6>7 dias com hospedagem</h6>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <hr />
